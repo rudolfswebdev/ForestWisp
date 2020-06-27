@@ -69,13 +69,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1598512975428238931}
-  - component: {fileID: 1271623035335829352}
   - component: {fileID: 1271623035335829354}
   - component: {fileID: 1271623035335829359}
   - component: {fileID: 1271623035335829353}
+  - component: {fileID: 1344728254}
   m_Layer: 0
   m_Name: chibiMinion (1)
-  m_TagString: Untagged
+  m_TagString: minion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,19 +96,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1271623035335829352
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2118063708016010473}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.5024624, y: 2.8872566, z: 2.8785706}
-  m_Center: {x: -0.04, y: 0.9436283, z: 0.03}
 --- !u!95 &1271623035335829354
 Animator:
   serializedVersion: 3
@@ -138,13 +125,13 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 1.37
-  m_Speed: 3.5
+  m_Speed: 15
   m_Acceleration: 8
   avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_AngularSpeed: 250
+  m_StoppingDistance: 15
   m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
+  m_AutoBraking: 0
   m_AutoRepath: 1
   m_Height: 2
   m_BaseOffset: 0
@@ -163,6 +150,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformToFollow: {fileID: 0}
+  stationary: 1
+--- !u!65 &1344728254
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118063708016010473}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 3, z: 3}
+  m_Center: {x: 0, y: 1.28, z: 0}
 --- !u!1 &6880334163978222066
 GameObject:
   m_ObjectHideFlags: 0
