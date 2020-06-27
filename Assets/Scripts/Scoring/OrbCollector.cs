@@ -20,7 +20,7 @@ public class OrbCollector : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (panel.active)
+            if (panel.activeSelf)
             {
                 panel.SetActive(false) ;
             }
