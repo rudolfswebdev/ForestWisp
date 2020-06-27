@@ -8,11 +8,6 @@ public class PlayerManager : MonoBehaviour
     public int minions = 0;
     public int orbs = 0;
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
@@ -32,11 +27,22 @@ public class PlayerManager : MonoBehaviour
             switch (hitColliders[i].gameObject.tag)
             {
                 case "minion":
-                    Debug.Log("THERE IS A MINION");
+
                     if (Input.GetKeyDown(KeyCode.E) && hitColliders[i].gameObject.GetComponent<FollowPlayer>().stationary == true)
                     {
               
                         hitColliders[i].gameObject.GetComponent<FollowPlayer>().StartFollow();
+                        minions++;
+                    }
+                    break;
+                case "wisp_temple":
+                    hitColliders[i].gameObject.GetComponent<wispTemple>().CheckMinions(minions);
+                    break;
+                case "orb":
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        Destroy(hitColliders[i].gameObject);
+                        orbs += 1;
                     }
                     break;
             }
