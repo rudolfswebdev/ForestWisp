@@ -45,6 +45,13 @@ public class PlayerManager : MonoBehaviour
                         orbs += 1;
                     }
                     break;
+                case "gate":
+                    if (Input.GetKeyDown(KeyCode.E) && orbs != 0)
+                    {
+                        hitColliders[i].gameObject.GetComponent<GateScript>().CheckOrbs(orbs);
+                        orbs = 0;
+                    }
+                    break;
             }
             i++;
         }
