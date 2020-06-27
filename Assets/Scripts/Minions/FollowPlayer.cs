@@ -13,6 +13,6 @@ public class FollowPlayer : MonoBehaviour
     void Update()
     {
         //Follow the player
-        agent.destination = transformToFollow.position;
+        agent.SetDestination(transformToFollow.transform.position);
     }
 }

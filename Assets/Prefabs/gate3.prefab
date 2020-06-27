@@ -18,7 +18,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &7296214107924063745
 Transform:
@@ -186,6 +186,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orb
       objectReference: {fileID: 0}
+    - target: {fileID: 8688540202671915029, guid: 36493ca22d8b83f4dbf0f6402e45b844,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8688540202947980106, guid: 36493ca22d8b83f4dbf0f6402e45b844,
         type: 3}
       propertyPath: m_Color.r
@@ -210,6 +215,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RenderMode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688540202947980108, guid: 36493ca22d8b83f4dbf0f6402e45b844,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36493ca22d8b83f4dbf0f6402e45b844, type: 3}
@@ -301,6 +311,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orb (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8688540202671915029, guid: 36493ca22d8b83f4dbf0f6402e45b844,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8688540202947980106, guid: 36493ca22d8b83f4dbf0f6402e45b844,
         type: 3}
       propertyPath: m_RenderMode
@@ -315,6 +330,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688540202947980108, guid: 36493ca22d8b83f4dbf0f6402e45b844,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36493ca22d8b83f4dbf0f6402e45b844, type: 3}
@@ -406,6 +426,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orb (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8688540202671915029, guid: 36493ca22d8b83f4dbf0f6402e45b844,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8688540202947980106, guid: 36493ca22d8b83f4dbf0f6402e45b844,
         type: 3}
       propertyPath: m_RenderMode
@@ -420,6 +445,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688540202947980108, guid: 36493ca22d8b83f4dbf0f6402e45b844,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36493ca22d8b83f4dbf0f6402e45b844, type: 3}
@@ -511,6 +541,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orb (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8688540202671915029, guid: 36493ca22d8b83f4dbf0f6402e45b844,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8688540202947980106, guid: 36493ca22d8b83f4dbf0f6402e45b844,
         type: 3}
       propertyPath: m_Color.r
@@ -535,6 +570,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RenderMode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688540202947980108, guid: 36493ca22d8b83f4dbf0f6402e45b844,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36493ca22d8b83f4dbf0f6402e45b844, type: 3}
@@ -611,6 +651,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orb (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8688540202671915029, guid: 36493ca22d8b83f4dbf0f6402e45b844,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8688540202947980106, guid: 36493ca22d8b83f4dbf0f6402e45b844,
         type: 3}
       propertyPath: m_Color.g
@@ -630,6 +675,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RenderMode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688540202947980108, guid: 36493ca22d8b83f4dbf0f6402e45b844,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8688540202947980109, guid: 36493ca22d8b83f4dbf0f6402e45b844,
         type: 3}
@@ -721,6 +771,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orb (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8688540202671915029, guid: 36493ca22d8b83f4dbf0f6402e45b844,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8688540202947980106, guid: 36493ca22d8b83f4dbf0f6402e45b844,
         type: 3}
       propertyPath: m_Color.b
@@ -745,6 +800,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RenderMode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688540202947980108, guid: 36493ca22d8b83f4dbf0f6402e45b844,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8688540202947980109, guid: 36493ca22d8b83f4dbf0f6402e45b844,
         type: 3}
