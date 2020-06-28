@@ -60,6 +60,9 @@ public class PlayerManager : MonoBehaviour
                        
                     }
                     break;
+                case "portal":
+                    OrbCollector.instance.DisplayEndScreen();
+                    break;
             }
             i++;
         }

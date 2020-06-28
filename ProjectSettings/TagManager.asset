@@ -8,6 +8,7 @@ TagManager:
   - wisp_temple
   - orb
   - gate
+  - portal
   layers:
   - Default
   - TransparentFX
