@@ -529,6 +529,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1322888313, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
+      propertyPath: requiredMinions
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 1400960914, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
       propertyPath: requiredMinions
       value: 4
@@ -846,6 +850,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1322888313, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
+      propertyPath: requiredMinions
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1400960914, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
       propertyPath: requiredMinions
       value: 5
@@ -2054,6 +2062,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1322888313, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
+      propertyPath: requiredMinions
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1400960914, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
       propertyPath: requiredMinions
       value: 5
@@ -4061,6 +4073,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1322888313, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
+      propertyPath: requiredMinions
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2427486965131476454, guid: 9b08f6beec8cdf3438b0f40f21ceb345,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4665,6 +4681,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1322888313, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
+      propertyPath: requiredMinions
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1400960914, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
       propertyPath: requiredMinions
       value: 7
@@ -5890,6 +5910,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1322888313, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
+      propertyPath: requiredMinions
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 1400960914, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
       propertyPath: requiredMinions
       value: 4
@@ -6483,6 +6507,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1322888313, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
+      propertyPath: requiredMinions
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 1400960914, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
       propertyPath: requiredMinions
       value: 4
@@ -6730,6 +6758,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1322888313, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
+      propertyPath: requiredMinions
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1400960914, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
       propertyPath: requiredMinions
       value: 6
@@ -7181,6 +7213,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1322888313, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
+      propertyPath: requiredMinions
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1400960914, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
       propertyPath: requiredMinions
       value: 7
@@ -14855,6 +14891,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1322888313, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
+      propertyPath: requiredMinions
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1400960914, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
       propertyPath: requiredMinions
       value: 6
@@ -15172,6 +15212,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1322888313, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
+      propertyPath: requiredMinions
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1400960914, guid: 9b08f6beec8cdf3438b0f40f21ceb345, type: 3}
       propertyPath: requiredMinions
       value: 2
@@ -15758,7 +15802,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2549659844406561822}
-  m_LocalRotation: {x: 0.22157766, y: 0.0000000101342, z: 0.000000017694052, w: 0.9751428}
+  m_LocalRotation: {x: 0.22157764, y: -0.000000025621661, z: 0.000000025818709, w: 0.9751428}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
