@@ -15,6 +15,11 @@ public class OrbCollector : MonoBehaviour
     public GameObject startScreen;
     public GameObject endgame;
 
+    public AudioSource musicSource;
+    public AudioClip forest1;
+    public AudioClip forest2;
+
+
     public void Awake()
     {
         instance = this;
