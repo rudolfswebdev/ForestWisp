@@ -136,7 +136,7 @@ public class WeatherSystem : MonoBehaviour
         while (true)
         {
             t += Time.deltaTime / movementTimeInSeconds;
-            RenderSettings.fogDensity = Mathf.Lerp(0.01f, 0.02f, t);
+            RenderSettings.fogDensity = Mathf.Lerp(0.01f, 0.013f, t);
             yield return null;
         }
     }
