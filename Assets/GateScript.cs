@@ -9,6 +9,7 @@ public class GateScript : MonoBehaviour
     public Animator anim;
     public GameObject[] orbs;
     public List<GameObject> disabledOrbs;
+    public int gateIndex = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -42,6 +43,20 @@ public class GateScript : MonoBehaviour
     public void ActivateGate()
     {
         anim.SetTrigger("openGate");
+        SetWeather(gateIndex);
+    }
+
+    public void SetWeather(int index)
+    {
+        switch (index)
+        {
+            case 1:
+                WeatherSystem.instance.SetNight();
+                break;
+            case 2:
+                WeatherSystem.instance.SetDay();
+                break;
+        }
     }
 
     
