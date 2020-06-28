@@ -12,6 +12,7 @@ public class OrbCollector : MonoBehaviour
     public GameObject panel;
     public static OrbCollector instance;
     public GameObject wispsRequiredText;
+    public GameObject startScreen;
     public GameObject endgame;
 
     public void Awake()
@@ -23,6 +24,7 @@ public class OrbCollector : MonoBehaviour
     {
         wispsRequiredText.SetActive(false);
         endgame.SetActive(false);
+        StartCoroutine(DisableStartScreen());
         foreach (GameObject orb in orbs)
         {
             orb.GetComponentInChildren<Image>().sprite = orbSlotImage;
@@ -84,6 +86,12 @@ public class OrbCollector : MonoBehaviour
         yield return new WaitForSeconds(2);
         wispsRequiredText.SetActive(false);
 
+    }
+
+    public IEnumerator DisableStartScreen()
+    {
+        yield return new WaitForSeconds(4);
+        startScreen.GetComponent<Animator>().SetTrigger("fadeOut");
     }
 
 
