@@ -9,9 +9,11 @@ public class GateScript : MonoBehaviour
     public Animator anim;
     public GameObject[] orbs;
     public List<GameObject> disabledOrbs;
+
     // Start is called before the first frame update
     void Start()
     {
+        
         foreach(GameObject orb in orbs)
         {
             orb.SetActive(false);
@@ -31,6 +33,7 @@ public class GateScript : MonoBehaviour
             selectedOrb.SetActive(true);
             disabledOrbs.Remove(selectedOrb);
             currentOrbs += 1;
+            OrbCollector.instance.RemoveWisp();
         }
 
         if (currentOrbs == requiredOrbs) ActivateGate();
@@ -40,4 +43,6 @@ public class GateScript : MonoBehaviour
     {
         anim.SetTrigger("openGate");
     }
+
+    
 }

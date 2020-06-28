@@ -43,13 +43,21 @@ public class PlayerManager : MonoBehaviour
                     {
                         Destroy(hitColliders[i].gameObject);
                         orbs += 1;
+                        OrbCollector.instance.AddWisp();
                     }
                     break;
                 case "gate":
-                    if (Input.GetKeyDown(KeyCode.E) && orbs != 0)
+                    if (Input.GetKeyDown(KeyCode.E))
                     {
-                        hitColliders[i].gameObject.GetComponent<GateScript>().CheckOrbs(orbs);
-                        orbs = 0;
+                        if(orbs != 0)
+                        {
+                            hitColliders[i].gameObject.GetComponent<GateScript>().CheckOrbs(orbs);
+                            orbs = 0;
+                        }else
+                        {
+                            OrbCollector.instance.DisplayWispsRequired();
+                        }
+                       
                     }
                     break;
             }
